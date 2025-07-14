@@ -53,21 +53,6 @@ Classical approaches used features like MFCCs and models such as k-NN or SVM to 
   - Dropout: 0.3, Optimizer: Adam (lr = 0.001)
 
 
-## Working Pipeline
-
-```text
-Audio Input (.wav)
-      ↓
-Feature Extraction via DSP
-      ↓                          ↓
-KNN / SVM / Boosted Trees       Mel-Spectrogram
-      ↓                          ↓
-     Classical Classifiers       CNN
-              \                /
-               →→ Ensemble →→ Genre Prediction
-```
-
-
 ## Performance Comparison
 
 | Model           | Accuracy | Precision | Recall |
@@ -81,22 +66,11 @@ KNN / SVM / Boosted Trees       Mel-Spectrogram
 > The hybrid model provides the best overall performance with low latency and high generalization.
 
 
-
 ## Folder Structure
 
-DSP-Based-Music-Genre-Classifier/
-├── code/                       
-│   ├── Boosted_Trees.m
-│   ├── SVM.m
-│   ├── KNN.m
-│   ├── Features.m
-│   ├── Clean_Data.m
-│   ├── GUI.m
-│   └── cnn.m
-├── data/                      
-│   ├── fma_advanced_features_max5000.mat
-│   ├── fma_cleaned_features.mat
-│   └──genre_cnn_model_4genre.mat
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1618eefb-985e-4f76-9625-49f6d58f7101" />
+
+---
 
 ## How to Run
 
@@ -169,4 +143,3 @@ These features play a critical role in effectively distinguishing between music 
 - **Huzaifa Ahmad**  
   Department of Electrical Engineering,  
   National University of Sciences and Technology (NUST), Islamabad, Pakistan
-  
