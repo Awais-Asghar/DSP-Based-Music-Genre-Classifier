@@ -143,3 +143,7 @@ These features play a critical role in effectively distinguishing between music 
 - **Huzaifa Ahmad**  
   Department of Electrical Engineering,  
   National University of Sciences and Technology (NUST), Islamabad, Pakistan
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8f52f10a-9bf0-4a3e-96b0-1ab48fd4d5f3" />
+
+---
