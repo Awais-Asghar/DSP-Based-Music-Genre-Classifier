@@ -25,6 +25,8 @@ Classical approaches used features like MFCCs and models such as k-NN or SVM to 
 
 
 ## System Overview
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5e41204f-7250-4442-ba08-a12a187aec64" />
+
 
 ### DSP Features Extracted
 
@@ -33,8 +35,9 @@ Classical approaches used features like MFCCs and models such as k-NN or SVM to 
 - **Rhythmic Features** – beat strength, BPM, tempo variance
 - **Harmonic Features** – pitch histograms, chroma vectors
 
-These features are aggregated and passed to traditional classifiers: KNN, SVM, and Boosted Trees.
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ac7f80b0-dfbe-4e3f-8dbd-b0f3c76292f8" />
 
+---
 
 ### CNN on Mel-Spectrograms
 
@@ -82,7 +85,7 @@ KNN / SVM / Boosted Trees       Mel-Spectrogram
 ## Folder Structure
 
 DSP-Based-Music-Genre-Classifier/
-├── code/                       # Classical ML scripts
+├── code/                       
 │   ├── Boosted_Trees.m
 │   ├── SVM.m
 │   ├── KNN.m
@@ -90,7 +93,7 @@ DSP-Based-Music-Genre-Classifier/
 │   ├── Clean_Data.m
 │   ├── GUI.m
 │   └── cnn.m
-├── data/                       # Feature vectors
+├── data/                      
 │   ├── fma_advanced_features_max5000.mat
 │   ├── fma_cleaned_features.mat
 │   └──genre_cnn_model_4genre.mat
@@ -149,7 +152,7 @@ These features play a critical role in effectively distinguishing between music 
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/90b2f4cd-63f2-40a5-b320-efa36247d02a" />
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/15707bee-85c8-4a79-bcbb-e5c0a3fe8b8d" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/16ec3fbb-3464-4e66-944a-f80dc70e59b2" />
 
 ## Future Work
 
