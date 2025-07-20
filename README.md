@@ -1,6 +1,6 @@
 # DSP-Based Music Genre Classifier
 
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg) 
 ![Tech Stack](https://img.shields.io/badge/Tech-DSP%20%7C%20ML%20%7C%20CNN-pink.svg)
 ![Platform](https://img.shields.io/badge/Platform-MATLAB-blue.svg)
 ![Language](https://img.shields.io/badge/Language-MATLAB-orange.svg)
