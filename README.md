@@ -78,7 +78,7 @@ Classical approaches used features like MFCCs and models such as k-NN or SVM to 
 
 - MATLAB R2020 or newer  
 - Signal Processing Toolbox  
-- Deep Learning Toolbox  
+- Deep Learning Toolbox.
 
 ### Steps
 
